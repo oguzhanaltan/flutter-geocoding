@@ -11,7 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   geocoding_platform_interface:
-    path: ./geocoding_platform_interface
+    git:
+      url: https://github.com/oguzhanaltan/flutter-geocoding
+      path: geocoding_platform_interface
 
 dev_dependencies:
   effective_dart: ^1.2.1
